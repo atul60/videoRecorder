@@ -1,0 +1,30 @@
+.video-recorder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .video-preview {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .controls button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .stop-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
